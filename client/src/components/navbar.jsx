@@ -16,7 +16,7 @@ const Navbar = () => {
 
     return (
         <Router>
-            <div>
+            <header>
                 <nav>
                     <a href="/"><img src={Logo} alt="Logo" /></a>
                     <div className='burger-menu'>
@@ -44,7 +44,7 @@ const Navbar = () => {
                     <Route path="/about" element={<About />} />
                     <Route path="/newsSignup" element={<NewsSignup />} />
                 </Routes>
-            </div>
+            </header>
         </Router>
     );
 };
